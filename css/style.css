@@ -139,13 +139,15 @@
 #wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide3 {
   background-image: url(../img/wedding-img3.jpg);
 }
-#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide::after {
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide::before {
   content: "";
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(37, 37, 37, 0.2);
+  left: 0;
+  top: 0;
 }
 #wrap #main #section1 .container .title {
   z-index: 2;
